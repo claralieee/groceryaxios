@@ -2,16 +2,17 @@ import firebase from 'firebase';
 
 const firebaseConfig = {
     //Key in your database details
-    apiKey: "AIzaSyDEsosHLKl2Bk4jHyfqqgHdJANsIgA0fQE",
-    authDomain: "countries-34d59.firebaseapp.com",
-    databaseURL: "https://countries-34d59.firebaseio.com",
-    projectId: "countries-34d59",
-    storageBucket: "countries-34d59.appspot.com",
-    messagingSenderId: "739031628911",
-    appId: "1:739031628911:web:513d02e56889113d54a19a",
-    measurementId: "G-2NRLKWL5QH"
+    apiKey: "AIzaSyATeovxAY0DYrx4VeX09zVcr79cMMlKdis",
+    authDomain: "axios-d45d7.firebaseapp.com",
+    databaseURL: "https://axios-d45d7.firebaseio.com",
+    projectId: "axios-d45d7",
+    storageBucket: "axios-d45d7.appspot.com",
+    messagingSenderId: "750052240331",
+    appId: "1:750052240331:web:218ec644c3ceffc009a44e",
+    measurementId: "G-2NEJVJ1FGT"
   };
   
   firebase.initializeApp(firebaseConfig);
   var database = firebase.firestore();
   export default database;
+ 
